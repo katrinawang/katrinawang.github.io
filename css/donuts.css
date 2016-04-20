@@ -1,0 +1,82 @@
+/*global overrides!*/
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+  
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+/*boday!*/
+h1 {
+    color: #C89F9C;
+    font-family: 'Poiret One';
+    font-size: 50px;
+    text-align: center;
+    padding: 30pt;  
+}
+
+.donutbox {
+    float: left;
+    width: 400pt;
+    text-align: center;
+    margin: 0 auto;
+    -webkit-filter: drop-shadow(2px 2px 3px #DBB9B1);
+    margin-left: 2.5%;
+}
+
+.textbox {
+    font-family: 'Poiret One';
+    font-size: 20px; 
+    align-self: center;
+    align-content: center;
+    opacity:0;
+}
+
+.donutbox:hover .textbox {
+opacity:0.9;
+color:#AA9696;
+font-size:20px;
+}
+
+.bigcontainer {
+  align-self: center;
+  align-content: center;
+}
+
+img {
+    width: 200pt;
+    padding: 40pt;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 2%;
+}
+
+
+html, body{
+  margin: 0;
+  padding: 10pt;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  overflow-x: hidden;
+  background-color: #FCEADE;
+}
+
+/*roration!*/
+img {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+
+}
+img:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+
+
