@@ -1,8 +1,8 @@
 $(window).scroll(function(){ 
    		if ($(window).scrollTop()  == $(document).height()-$(window).height()){
-   			console.log("bottom");
+   			$(".js-arrow").hide();
    		} else{
-   			console.log("no");
+   			$(".js-arrow").show();
    		}
    		
 	});
