@@ -1,6 +1,8 @@
 /*global overrides!*/
 *{
     box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .clearfix {
@@ -8,8 +10,6 @@
 }
 
 /*boday!*/
-
-
 h1 {
     color: #C89F9C;
     font-family: 'Poiret One';
@@ -20,11 +20,11 @@ h1 {
 
 .donutbox {
     float: left;
-    width: 400pt;
+    width: 190pt;
     text-align: center;
     margin: 0 auto;
     -webkit-filter: drop-shadow(2px 2px 3px #DBB9B1);
-    margin-left: 2%;
+    margin-left: 2.5%;
 }
 
 .textbox {
