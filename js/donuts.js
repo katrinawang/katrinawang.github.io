@@ -4,5 +4,4 @@ $(window).scroll(function(){
    		} else{
    			$(".js-arrow").show();
    		}
-   		
 	});
